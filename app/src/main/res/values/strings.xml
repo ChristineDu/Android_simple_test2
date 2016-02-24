@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment4</string>
+    <string name="defaultvalue">http://www.eecg.utoronto.ca/~jayar/PeopleList.txt</string>
+    <string name="label">Database URL:</string>
+    <string name="clear">CLEAR</string>
+    <string name="populate">POPULATE</string>
+    <string name="search">SEARCH</string>
+    <string name="title_activity_search">search</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="dont_show">DON\'T SHOW AGAIN</string>
+    <string name="more_info">MORE INFO</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="confirm_message">Are you sure to delete his information?</string>
+</resources>

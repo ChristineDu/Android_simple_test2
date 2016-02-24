@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/person_picture"
+        android:layout_width="180dp"
+        android:layout_height="200dp"/>
+    <TextView
+        android:id="@+id/person_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/person_picture"/>
+    <TextView
+        android:id="@+id/person_bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/person_name"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button android:id="@+id/dont_show_again"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@color/button"
+            android:textColor="@color/buttontext"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:text="@string/dont_show" />
+
+        <Button android:id="@+id/more_info"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@color/button"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/buttontext"
+            android:text="@string/more_info"/>
+    </LinearLayout>
+
+</RelativeLayout>
